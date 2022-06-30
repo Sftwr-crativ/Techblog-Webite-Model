@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #e6e6e6;
+}
+#banner{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #menu{
+    padding: 10px;
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+#banner a:link, a:visited{
+    color: white;
+}
+#banner a:hover{
+    background-color: white;
+    color: #f7b600;
+}
+#banner a{
+    text-decoration: none;
+    padding: 8px 12px;
+}
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#conteudo{
+    width: 660px;
+    float: left;
+}
+#lateral{
+    width: 240px;
+    float: right;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #cccccc;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+#img1{
+    width: 620px;
+}
+h2{
+    color: #f7b600;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-top: 10px;
+}
+#pita:link, #pita:visited{
+    color: #f7b600;
+}
+#pita:hover{
+    color: #c0c5ce;
+}
+#pita{
+    z-index: 100;
+    text-decoration: none;
+}
+.links-lateral:link, .links-lateral:visited{
+    color: #f7b600;
+}
+.links-lateral:hover{
+    color: #65737e;
+}
+.links-lateral{
+    z-index: 99;
+    text-decoration: none;
+}
+.conteudolateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+h3{
+    color: #565656;
+    background: #cccccc;
+    padding: 5px;
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: solid 1px #cccccc;
+}
+.postagem-lateral2{
+    font-size: 0.8em;
+    padding: 5px;
+}
+a{
+    transition: 0.35s ease-in-out;
+}
